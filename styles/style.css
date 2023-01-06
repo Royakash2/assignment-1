@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    font-family: 'work sans', sans-serif;
+}
+
+/* banner sectiion */
+.header {
+    display: flex;
+    background-image: url("../images/banner/banner2.png");
+    height: 809px;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    padding-right: 230px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 28px;
+}
+
+.banner-btn {
+    height: 64px;
+    width: 160px;
+    background-color: #cd651b;
+    border: none;
+    border-radius: 5px;
+    margin-top: 28px;
+    color: #ffffff;
+}
+
+/* about section */
+.about {
+    display: flex;
+    margin: 130px 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-info {
+    padding: 100px;
+
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.info-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: '✓';
+    text-align: left;
+}
+
+/* my plans section */
+.my-plans {
+    margin: 0 249px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plan-title {
+    text-align: center;
+    margin: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* call now section */
+.call-now {
+    background-image: url("/images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    margin: 130px 230px;
+    width: 1140px;
+    height: 300px;
+    
+}
