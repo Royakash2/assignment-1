@@ -6,7 +6,7 @@
 /* banner sectiion */
 .header {
     display: flex;
-    background-image: url("/images/banner/banner2.png");
+    background-image: url(/images/banner/banner2.png);
     height: 809px;
     text-align: right;
     justify-content: right;
@@ -94,7 +94,7 @@ ul li::before {
 
 /* call now section */
 .call-now {
-    background-image: url("/images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-image: url(/images/watch.png), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     margin: 130px 230px;
