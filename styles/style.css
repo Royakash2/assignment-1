@@ -100,5 +100,23 @@ ul li::before {
     margin: 130px 230px;
     width: 1140px;
     height: 300px;
-    
+    border-radius: 8px;
+}
+
+.call-btn {
+    width: 160px;
+    height: 64px;
+    background-color: #ffffff;
+    color: #cd651b;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+
+}
+
+.call-container {
+    padding: 59px 64px;
+    font-weight: 700;
+    font-size: 40px;
+
 }
