@@ -6,7 +6,7 @@
 /* banner sectiion */
 .header {
     display: flex;
-    background-image: url("../images/banner/banner2.png");
+    background-image: url(../images/banner/banner2.png);
     height: 809px;
     text-align: right;
     justify-content: right;
