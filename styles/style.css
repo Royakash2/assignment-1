@@ -72,12 +72,16 @@ ul {
     list-style: none;
 }
 
-ul li::before {
+/* ul li::before { 
     content: '✓';
     text-align: left;
-}
+}*/
 
 /* my plans section style */
+li{
+    list-style: none;
+    padding: 15px 0;
+}
 .my-plans {
     margin: 0 249px;
 }
