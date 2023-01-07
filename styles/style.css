@@ -66,14 +66,11 @@
     margin-bottom: 16px;
 }
 
-ul {
-    list-style: none;
-}
-
 /* ul li::before { 
     content: '✓';
     text-align: left;
 }*/
+
 /* help section style */
 .help {
     display: flex;
