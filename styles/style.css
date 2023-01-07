@@ -76,6 +76,30 @@ ul {
     content: '✓';
     text-align: left;
 }*/
+/* help section style */
+.help{
+    display: flex;
+    padding: 130px 200px;
+    gap: 50px;
+    background-color: #444343;
+    text-align: left;
+    color: #cd651b;
+    margin-bottom: 20px;
+}
+.help-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.help-img{
+    width: 500px;
+    height: 30px;
+}
+.help-email{
+    color: darkkhaki;
+    padding: 30px;
+}
 
 /* my plans section style */
 li{
