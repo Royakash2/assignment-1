@@ -40,11 +40,9 @@
 }
 
 /* about section style*/
-.about {
+.failure {
     display: flex;
-    margin: 130px 200px;
-    justify-content: space-around;
-    align-items: center;
+    padding: 200px  50px;
 }
 
 .about-info {
@@ -84,7 +82,7 @@ ul {
     background-color: #444343;
     text-align: left;
     color: #cd651b;
-    margin-bottom: 20px;
+    margin: 50px 100px ;
 }
 .help-title{
     color: #F8F8F8;
@@ -127,8 +125,9 @@ li{
     background-image: url("../images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    margin: 130px 230px;
-    width: 1140px;
+    background-size: cover;
+    margin: 230px 130px;
+    width: 1340px;
     height: 300px;
     border-radius: 8px;
 }
