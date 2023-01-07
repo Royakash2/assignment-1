@@ -42,13 +42,12 @@
 /* about section style*/
 .failure {
     display: flex;
-    padding: 100px 50px;
     text-align: left;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
-    margin: 100px;
-   
+    gap: 90px;
+    margin: 100px 200px;
+
 }
 
 .info-title {
@@ -110,13 +109,14 @@ li {
 }
 
 .my-plans {
-    margin: 50px 100px;
+    margin: 50px 300px;
+
 }
 
 .skill-container {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .my-plan-title {
@@ -132,7 +132,9 @@ li {
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 230px 130px;
+    margin: auto;
+    margin-top: 139px;
+    margin-bottom: 100px;
     width: 1340px;
     height: 300px;
     border-radius: 8px;
