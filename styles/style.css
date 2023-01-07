@@ -42,12 +42,13 @@
 /* about section style*/
 .failure {
     display: flex;
-    padding: 200px  50px;
-}
-
-.about-info {
-    padding: 100px;
-
+    padding: 100px 50px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px;
+   
 }
 
 .info-title {
@@ -75,42 +76,47 @@ ul {
     text-align: left;
 }*/
 /* help section style */
-.help{
+.help {
     display: flex;
     padding: 130px 200px;
     gap: 50px;
-    background-color: #444343;
+    background-color: #524a3c62;
     text-align: left;
     color: #cd651b;
-    margin: 50px 100px ;
+    margin: 50px 100px;
 }
-.help-title{
+
+.help-title {
     color: #F8F8F8;
     font-weight: 700;
     font-size: 40px;
     padding: 20px 0;
 }
-.help-img{
+
+.help-img {
     width: 500px;
     height: 30px;
 }
-.help-email{
-    color: darkkhaki;
+
+.help-email {
+    color: rgb(92, 26, 216);
     padding: 30px;
 }
 
 /* my plans section style */
-li{
+li {
     list-style: none;
     padding: 15px 0;
 }
+
 .my-plans {
-    margin: 0 249px;
+    margin: 50px 100px;
 }
 
 .skill-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .my-plan-title {
@@ -198,7 +204,7 @@ li{
 
 a {
     text-decoration: none;
-   
+
 }
 
 .contact-email {
@@ -206,7 +212,8 @@ a {
     font-size: 16px;
     padding: 20px 0;
 }
-.contact-phone{
+
+.contact-phone {
     font-weight: 400;
     font-size: 16px;
     padding: 20px 0;
