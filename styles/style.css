@@ -3,7 +3,7 @@
     font-family: 'work sans', sans-serif;
 }
 
-/* banner sectiion */
+/* banner sectiion style */
 .header {
     display: flex;
     background-image: url(../images/banner/banner2.png);
@@ -37,7 +37,7 @@
     color: #ffffff;
 }
 
-/* about section */
+/* about section style*/
 .about {
     display: flex;
     margin: 130px 200px;
@@ -75,7 +75,7 @@ ul li::before {
     text-align: left;
 }
 
-/* my plans section */
+/* my plans section style */
 .my-plans {
     margin: 0 249px;
 }
@@ -92,7 +92,7 @@ ul li::before {
     font-size: 40px;
 }
 
-/* call now section */
+/* call now section style */
 .call-now {
     background-image: url("../images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-blend-mode: overlay;
@@ -120,4 +120,65 @@ ul li::before {
     font-size: 40px;
 
 }
-/* footer section */
+
+/* contact style */
+.contact {
+    display: flex;
+    gap: 300px;
+    padding: 130px 230px;
+    background: #151414;
+    color: #F8F8F8;
+}
+
+.contact-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.user-email {
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    color: #F8F8F8;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subs-btn {
+    width: 100px;
+    height: 64px;
+    color: #F15B22;
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 0;
+
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-discription {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+.contact-email {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.contact-phone{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+}
